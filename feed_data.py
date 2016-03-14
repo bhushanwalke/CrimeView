@@ -1,7 +1,7 @@
 """Utility file to seed crime statistics and victim data"""
 
-from demo_model import Crime_Stat, Data_Import, Hour_Count, Day_Count, Month_Count, connect_to_db, db
-from demo_server import app
+from model import Crime_Stat, Data_Import, Hour_Count, Day_Count, Month_Count, connect_to_db, db
+from server import app
 import csv
 from datetime import datetime
 from sqlalchemy import desc

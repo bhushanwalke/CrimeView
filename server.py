@@ -1,7 +1,7 @@
 from jinja2 import StrictUndefined
 from flask import Flask, render_template, redirect, request, flash, session, jsonify
 from flask_debugtoolbar import DebugToolbarExtension
-from demo_model import Crime_Stat, Data_Import, Hour_Count, Day_Count, Month_Count, connect_to_db, db
+from model import Crime_Stat, Data_Import, Hour_Count, Day_Count, Month_Count, connect_to_db, db
 import json
 import requests
 from sqlalchemy import desc
